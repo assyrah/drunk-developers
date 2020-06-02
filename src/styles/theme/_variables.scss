@@ -1,0 +1,79 @@
+// Colours
+$color-primary: #9e5bc8;
+$color-primary-dark: darken($color-primary, 20%);
+$color-primary-light: lighten($color-primary, 20%);
+
+$blue-light: #00ccfe;
+$blue-violet: #6138d5;
+$orange: #ff7f1a;
+$yellow-light: #fff8db;
+$green-dark: #0f6c74;
+
+$color-mono-100: #fff;
+$color-mono-200: #F4faff;
+$color-mono-300: #D5D5D5;
+$color-mono-400: #9D9D9D;
+$color-mono-500: #4f4a5c;
+$color-mono-600: #1e1732;
+$color-mono-700: #222C2B;
+
+$color-body: $color-mono-100;
+$color-border: $color-mono-300;
+$color-border-inverted: $color-primary-light;
+$color-font: $color-mono-600;
+$color-font-light: $color-mono-500;
+$color-font-disabled: $color-mono-300;
+$color-font-inverted: $color-mono-100;
+$color-font-primary: $color-primary;
+$color-font-primary-dark: $color-primary-dark;
+$color-font-primary-light: $color-primary-light;
+$color-table: $color-mono-300;
+
+// Globals
+$site-width: 1024px;
+$border-width: 1px;
+$border-default: $border-width solid $color-border;
+$border-radius: 3rem;
+
+// Typography
+$font-size-base: 18px;
+$font-size-xs: .8rem;
+$font-size-sm: .875rem;
+$font-size: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xlg: 1.5rem;
+$font-size-xxlg: 2rem;
+$font-size-xxxlg: 2.75rem;
+
+$primary-font: "Poppins", Helvetica, Arial, sans-serif;
+
+$font-weight: 400;
+$font-weight-bold: 700;
+
+$link-color: $green-dark;
+$link-hover-color: darken($green-dark, 30%);
+$link-decoration: underline;
+
+// Modules
+$header-height: 3.75rem;
+$header-border: $border-width solid $color-border;
+$btn-radius: 1rem;
+$btn-padding-vert: 8px;
+$btn-padding-horz: 24px;
+$btn-padding: $btn-padding-vert $btn-padding-horz;
+$btn-color-inverted: $color-mono-100;
+$input-height: 2rem;
+$input-focus: $color-mono-600;
+
+// Grid and Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 340px;
+$breakpoint-md: 480px;
+$breakpoint-lg: 640px;
+$breakpoint-xl: 920px;
+$breakpoint-xxl: $site-width;
+
+$site-base: 4px;
+$grid-gutter: $site-base * 2;
+$grid-gutter-md: $site-base * 4;
+$grid-gutter-lg: $site-base * 5;

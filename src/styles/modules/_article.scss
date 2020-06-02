@@ -1,0 +1,14 @@
+.article {
+    background-color: $color-mono-200;
+    border: 2px dashed $color-border;
+    border-top-right-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    &-info {
+        font-size: $font-size-xs;
+    }
+    &-more {
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,57 @@
+.button {
+    display: inline-block;
+    padding: $btn-padding;
+    vertical-align: middle;
+    border-color: $color-primary;
+    border-radius: $btn-radius;
+    cursor: pointer;
+    color: $color-font-inverted;
+    font-size: 1rem;
+    background-color: $color-primary;
+    border: 1px solid;
+    &:hover {
+        background-color: $color-primary-dark;
+        color: $color-font-inverted;
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+    
+    &:disabled {
+        background-color: transparent;
+        color: $color-font-disabled;
+    }
+
+    &--text {
+        border: none;
+        font-weight: $font-weight-bold;
+        color: $color-font-primary;
+        background: transparent;
+        padding: 0;
+        &:hover {
+            background-color: transparent;
+            color: $color-font-primary-light;
+        }
+    }
+    
+    &--inverted {
+    color: $color-primary;
+    background: $color-mono-100;
+        &:hover {
+            background-color: $color-primary;
+            color: $color-font-inverted;
+        }
+    }
+
+    &--orange {
+        box-shadow: 0.1rem 0.4rem 1.2rem $orange;
+        background-color: $orange;
+        border-color: $orange;
+        
+        &:hover {
+            background-color: darken($orange, 10%);
+        }
+    }
+}

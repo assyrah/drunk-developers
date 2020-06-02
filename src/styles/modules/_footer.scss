@@ -1,0 +1,10 @@
+.footer {
+    min-height: 3rem;
+    background-color: $blue-violet;
+    color: $color-font-inverted;
+    padding-top: 1rem;
+    a {
+        text-decoration: none;
+        color: lighten($blue-light, 40%);
+    }
+}

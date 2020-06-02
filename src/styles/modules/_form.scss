@@ -1,0 +1,30 @@
+.form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    fieldset {
+        padding: 0;
+        border: 0;
+    }
+
+    label {
+        font-weight: 800;
+        padding: .5rem;
+    }
+
+    .button {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        width: 100%;
+        @media (min-width: $breakpoint-lg) {
+            width: auto;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .status {
+        color: $orange;
+    }
+}
